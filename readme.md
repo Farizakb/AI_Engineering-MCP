@@ -1,8 +1,8 @@
 # MCP Project
 
-This repository contains a hands-on course for learning the Model Context Protocol (MCP) through server and client examples.
+This repository is a practical MCP project that walks through real implementation patterns for the Model Context Protocol (MCP).
 
-The lessons are organized as separate notebooks and project folders, with each folder focused on a specific MCP concept and implementation step.
+The project is organized into self-contained modules, each containing a notebook and working code for a specific MCP capability.
 
 ## Project Structure
 
@@ -21,12 +21,14 @@ The lessons are organized as separate notebooks and project folders, with each f
 
 ## Description
 
-The MCP course walks through:
+This is a practical MCP project focused on implementing and testing real MCP workflows.
 
-- how to define and expose tools from an MCP server,
-- how to make an MCP-compatible chatbot client,
-- how to connect the chatbot to multiple MCP servers,
-- how to add prompt templates and read-only resources,
-- and how to create remote MCP servers with SSE transport.
+It includes hands-on modules that demonstrate:
 
-Each lesson folder contains a Jupyter notebook plus a `mcp_project` subfolder with the relevant code and configuration files.
+- defining and exposing tools from an MCP server,
+- building an MCP-compatible chatbot client,
+- connecting the chatbot to multiple MCP servers,
+- adding prompt templates and read-only resource endpoints,
+- and deploying remote MCP servers using SSE transport.
+
+Each project folder contains a Jupyter notebook plus a `mcp_project` subfolder with working code and configuration files.
